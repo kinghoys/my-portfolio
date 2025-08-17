@@ -1,35 +1,75 @@
-# Y. Hoysala Patel
+# Y. Hoysala Patel - Professional Portfolio
 
-**Portfolio** | [Live Demo](https://yhoysala-portfolio.vercel.app)
+🚀 **Modern, responsive portfolio website** built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**, showcasing cutting-edge projects and professional expertise.
 
-Next.js 14 • TypeScript • Tailwind CSS • Framer Motion
+## 🌟 Live Demo
+
+**[View Live Portfolio →](https://yhoysala-portfolio.vercel.app)**
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🏗️ Building for Production
 
 ```bash
-npm install
-npm run dev
 npm run build
+# or
+yarn build
 ```
 
-## Projects
+## 📁 Project Structure
 
-**Freelance**
-- ZPPSS African School • MERN • 95% mobile
-- MarkPro Premium • Flutter • Education
-- Vizag Travels • React • Booking platform  
-- Brushes & Palettes • Next.js • E-commerce
-
-**Personal**
-- Offline AI Chatbot • Privacy-first
-- Smart Air Quality • Healthcare IoT
-- NeuroVista + EduVerse • VR Learning
-
-**Side Projects**
-- Advance Document Processor • AI Text
-- New Way of Voting • Blockchain
-- Design System • Reusable UI
-- LawGPT • Legal AI
-
-Deploy: `vercel --prod`
+```
+portfolio/
+├── app/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Certifications.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+├── package.json
+├── tailwind.config.js
+├── next.config.js
+└── README.md
 ```
 
 ## 🎨 Design Features

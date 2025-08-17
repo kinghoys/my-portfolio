@@ -12,9 +12,8 @@ const projects = [
     description: "Built & maintained a MERN-stack website for school management. Achieved 95% device compatibility & 20% faster load times.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://zppss.vercel.app",
-    github: "https://github.com/kinghoys/zppss",
-    image: "/zppss-screenshot.png",
-    category: "Freelance"
+    github: "https://github.com/kinghoys/schoolwebsite",
+    image: "/zppss.png"
   },
   {
     title: "MarkPro Premium",
@@ -23,8 +22,7 @@ const projects = [
     tech: ["Flutter", "Dart", "Firebase"],
     link: "https://markpro-plus.web.app/",
     github: "https://github.com/kinghoys/MarkPro-premium",
-    image: "/markpro-screenshot.png",
-    category: "Freelance"
+    image: "/markpro-screenshot.png"
   },
   {
     title: "Vizag Travels",
@@ -33,8 +31,7 @@ const projects = [
     tech: ["React.js", "Material-UI", "Context API"],
     link: "https://vizag-travels-booking.vercel.app",
     github: "https://github.com/kinghoys/vizag-travels",
-    image: "/vizag-travels-screenshot.png",
-    category: "Freelance"
+    image: "/vizag-travels-screenshot.png"
   },
   {
     title: "Brushes & Palettes",
@@ -43,8 +40,7 @@ const projects = [
     tech: ["Next.js 14", "React", "Tailwind CSS"],
     link: "https://brushes-n-palettes.vercel.app",
     github: "https://github.com/kinghoys/Brushes-N-Palettes",
-    image: "/brushes-palets-screenshot.png",
-    category: "Freelance"
+    image: "/brushes-palets-screenshot.png"
   },
 
   // ✅ Personal Projects (Main 3)
@@ -53,30 +49,27 @@ const projects = [
     category: "Personal",
     description: "A self-contained AI assistant that runs 100% offline. Features PDF/DOCX analysis, customizable UI, privacy-first design.",
     tech: ["JavaScript", "Node.js", "Ollama (LLaMA 3)"],
-    link: "https://offline-ai-chatbot-demo.netlify.app",
-    github: "https://github.com/kinghoys/Offline-AI-Chatbot",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Offline+AI+Chatbot",
-    category: "Personal"
+    link: "https://github.com/kinghoys/offline-chatbot",
+    github: "https://github.com/kinghoys/offline-chatbot",
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Offline+AI+Chatbot"
   },
   {
     title: "Smart Air Quality Monitoring",
     category: "Personal",
     description: "Real-time air quality monitoring platform combining mobile + fixed sensors with healthcare integration and interactive visualizations.",
     tech: ["React.js", "Framer Motion", "Styled Components", "Interactive Charts"],
-    link: "https://air-quality-demo.netlify.app",
+    link: "https://air-quality-monitor-joae.vercel.app/",
     github: "https://github.com/kinghoys/Air-Quality-Monitor",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Air+Quality+Monitor",
-    category: "Personal"
+    image: "/air-quality-monitor.png"
   },
   {
     title: "NeuroVista + EduVerse",
     category: "Personal",
     description: "Immersive VR learning platform where neuroscience meets VR. 3D, AI, and VR-powered education transforming STEM learning.",
     tech: ["React", "Three.js", "Material-UI", "Framer Motion"],
-    link: "https://neurovista-demo.netlify.app",
-    github: "https://github.com/kinghoys/NeuroVista-EduVerse",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=NeuroVista+EduVerse",
-    category: "Personal"
+    link: "https://github.com/kinghoys/Neuro-Vista",
+    github: "https://github.com/kinghoys/Neuro-Vista",
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=NeuroVista+EduVerse"
   },
 
   // ✅ Side Projects (4-5 Projects)
@@ -85,40 +78,36 @@ const projects = [
     category: "Side",
     description: "Intelligent document processing tool for handling and analyzing structured/unstructured text efficiently with automation.",
     tech: ["Python", "NLP", "Automation Scripts"],
-    link: "https://document-processor-demo.netlify.app",
-    github: "https://github.com/kinghoys/Advance-Document-Processor",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Document+Processor",
-    category: "Side"
+    link: "https://github.com/kinghoys/advance-docuement-processor",
+    github: "https://github.com/kinghoys/advance-docuement-processor",
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Document+Processor"
   },
   {
     title: "New Way of Voting",
     category: "Side",
     description: "AI-driven voting solution enhancing transparency, scalability, and security in elections with blockchain concepts.",
     tech: ["Blockchain Concepts", "AI Models", "Web Integration"],
-    link: "https://voting-system-demo.netlify.app",
-    github: "https://github.com/kinghoys/New-Way-of-Voting",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=AI+Voting+System",
-    category: "Side"
+    link: "https://github.com/kinghoys/updated-ai-voting-system",
+    github: "https://github.com/kinghoys/updated-ai-voting-system",
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=AI+Voting+System"
   },
   {
     title: "Design System",
     category: "Side",
     description: "Reusable design system for building consistent, scalable UI components across multiple projects with modern patterns.",
     tech: ["React", "Tailwind CSS", "Styled Components"],
-    link: "https://design-system-demo.netlify.app",
+    link: "https://design-system-hoys.vercel.app/",
     github: "https://github.com/kinghoys/Design-System",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Design+System",
-    category: "Side"
+    image: "/desing-sysytem.png"
   },
   {
     title: "LawGPT",
     category: "Side",
     description: "Legal AI assistant for answering law-related queries using document-trained models with custom prompt engineering.",
     tech: ["LLMs", "NLP", "Custom Prompt Engineering"],
-    link: "https://lawgpt-demo.netlify.app",
+    link: "https://huggingface.co/spaces/harshitv804/LawGPT",
     github: "https://github.com/kinghoys/LawGPT",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=LawGPT",
-    category: "Side"
+    image: "/law-gpt.png"
   }
 ]
 
@@ -178,68 +167,137 @@ export default function Projects() {
 }
 
 function ProjectCard({ project, index }: { project: any, index: number }) {
+  const [isPreviewOpen, setIsPreviewOpen] = useState(false)
+  const [isHovered, setIsHovered] = useState(false)
+
   return (
-    <motion.div 
-      className="glass-card p-6 hover-lift flex flex-col h-full group relative"
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
+      viewport={{ once: true }}
+      className="glass-card p-6 hover-lift flex flex-col h-full group"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Fast Hover Preview */}
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
-        <iframe 
-          src={project.link} 
-          className="w-full h-full rounded-lg border-0"
-          title={`${project.title} preview`}
-          loading="lazy"
+      {/* Project Image with Hover Preview */}
+      <div className="relative mb-4 overflow-hidden rounded-lg">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent rounded-lg pointer-events-none" />
+        
+        {/* Fast Hover Preview */}
+        {isHovered && (
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-100 transition-opacity duration-200">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                <Eye className="w-4 h-4" />
+                <span>Live Preview</span>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <h4 className="text-xl font-semibold mb-3">{project.title}</h4>
+      <p className="text-gray-300 mb-4 flex-grow">{project.description}</p>
+      
+      <div className="flex flex-wrap gap-2 mb-4">
+        {project.tech.map((tech: string) => (
+          <span
+            key={tech}
+            className="px-2 py-1 bg-primary-500/20 text-primary-300 rounded text-sm"
+          >
+            {tech}
+          </span>
+        ))}
       </div>
       
-      {/* Main Content */}
-      <div className="relative z-20">
-        <div className="relative mb-4 overflow-hidden rounded-lg">
-          <img 
-            src={project.image} 
-            alt={project.title} 
-            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110" 
-          />
-        </div>
+      <div className="flex gap-4 mt-auto">
+        {project.link && (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-primary-400 hover:text-primary-300 transition-colors"
+          >
+            <ExternalLink className="w-4 h-4" />
+            Live Demo
+          </a>
+        )}
         
-        <div className="flex-1 flex flex-col">
-          <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-          <p className="text-gray-300 mb-4 flex-1">{project.description}</p>
-          
-          <div className="flex flex-wrap gap-2 mb-4">
-            {project.tech.map((tech: string) => (
-              <span key={tech} className="bg-primary-500/20 text-primary-300 px-3 py-1 rounded-full text-sm">
-                {tech}
-              </span>
-            ))}
-          </div>
-          
-          <div className="flex space-x-4">
-            <a 
-              href={project.github} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition"
-            >
-              <Github size={18} />
-              <span>View Code</span>
-            </a>
-            <a 
-              href={project.link} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition"
-            >
-              <ExternalLink size={18} />
-              <span>Live Demo</span>
-            </a>
-          </div>
-        </div>
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-primary-400 hover:text-primary-300 transition-colors"
+          >
+            <Github className="w-4 h-4" />
+            GitHub
+          </a>
+        )}
       </div>
+
+      {/* Fast Modal on Hover */}
+      {isHovered && project.link && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.95 }}
+          transition={{ duration: 0.15 }}
+          className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            transition={{ duration: 0.15 }}
+            className="bg-gray-900 rounded-xl max-w-6xl w-full max-h-[80vh] overflow-hidden"
+            onMouseEnter={(e) => {
+              e.stopPropagation();
+              setIsHovered(true);
+            }}
+            onMouseLeave={(e) => {
+              e.stopPropagation();
+              setIsHovered(false);
+            }}
+          >
+            <div className="flex items-center justify-between p-4 border-b border-gray-700">
+              <h3 className="text-lg font-semibold">{project.title} - Live Preview</h3>
+              <div className="flex items-center space-x-2">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 flex items-center space-x-1"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  <span>Open in New Tab</span>
+                </a>
+                <button
+                  onClick={() => setIsHovered(false)}
+                  className="text-gray-400 hover:text-white"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+            <div className="relative w-full h-[60vh]">
+              <iframe
+                src={project.link}
+                className="w-full h-full border-0"
+                title={project.title}
+                sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+              />
+            </div>
+          </motion.div>
+        </motion.div>
+      )}
     </motion.div>
   )
 }

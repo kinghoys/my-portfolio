@@ -1,25 +1,30 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-import Skills from './components/Skills'
+import TechSkills from './components/TechSkills'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
-import Certifications from './components/Certifications'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ParticleBackground from './components/ParticleBackground'
+import ThemeToggle from './components/ThemeToggle'
+import { ThemeProvider } from './components/ThemeProvider'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-dark-200">
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Certifications />
-      <Contact />
-      <Footer />
-    </main>
+    <ThemeProvider>
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <ParticleBackground />
+        <ThemeToggle />
+        <Navbar />
+        <Hero />
+        <About />
+        <TechSkills />
+        <Projects />
+        <Experience />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
