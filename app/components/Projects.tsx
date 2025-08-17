@@ -13,7 +13,8 @@ const projects = [
     tech: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://zppss.vercel.app",
     github: "https://github.com/kinghoys/zppss",
-    image: "/zppss-screenshot.png"
+    image: "/zppss-screenshot.png",
+    category: "Freelance"
   },
   {
     title: "MarkPro Premium",
@@ -22,7 +23,8 @@ const projects = [
     tech: ["Flutter", "Dart", "Firebase"],
     link: "https://markpro-plus.web.app/",
     github: "https://github.com/kinghoys/MarkPro-premium",
-    image: "/markpro-screenshot.png"
+    image: "/markpro-screenshot.png",
+    category: "Freelance"
   },
   {
     title: "Vizag Travels",
@@ -31,7 +33,8 @@ const projects = [
     tech: ["React.js", "Material-UI", "Context API"],
     link: "https://vizag-travels-booking.vercel.app",
     github: "https://github.com/kinghoys/vizag-travels",
-    image: "/vizag-travels-screenshot.png"
+    image: "/vizag-travels-screenshot.png",
+    category: "Freelance"
   },
   {
     title: "Brushes & Palettes",
@@ -40,7 +43,8 @@ const projects = [
     tech: ["Next.js 14", "React", "Tailwind CSS"],
     link: "https://brushes-n-palettes.vercel.app",
     github: "https://github.com/kinghoys/Brushes-N-Palettes",
-    image: "/brushes-palets-screenshot.png"
+    image: "/brushes-palets-screenshot.png",
+    category: "Freelance"
   },
 
   // ✅ Personal Projects (Main 3)
@@ -51,7 +55,8 @@ const projects = [
     tech: ["JavaScript", "Node.js", "Ollama (LLaMA 3)"],
     link: "https://offline-ai-chatbot-demo.netlify.app",
     github: "https://github.com/kinghoys/Offline-AI-Chatbot",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Offline+AI+Chatbot"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Offline+AI+Chatbot",
+    category: "Personal"
   },
   {
     title: "Smart Air Quality Monitoring",
@@ -60,7 +65,8 @@ const projects = [
     tech: ["React.js", "Framer Motion", "Styled Components", "Interactive Charts"],
     link: "https://air-quality-demo.netlify.app",
     github: "https://github.com/kinghoys/Air-Quality-Monitor",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Air+Quality+Monitor"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Air+Quality+Monitor",
+    category: "Personal"
   },
   {
     title: "NeuroVista + EduVerse",
@@ -69,7 +75,8 @@ const projects = [
     tech: ["React", "Three.js", "Material-UI", "Framer Motion"],
     link: "https://neurovista-demo.netlify.app",
     github: "https://github.com/kinghoys/NeuroVista-EduVerse",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=NeuroVista+EduVerse"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=NeuroVista+EduVerse",
+    category: "Personal"
   },
 
   // ✅ Side Projects (4-5 Projects)
@@ -80,7 +87,8 @@ const projects = [
     tech: ["Python", "NLP", "Automation Scripts"],
     link: "https://document-processor-demo.netlify.app",
     github: "https://github.com/kinghoys/Advance-Document-Processor",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Document+Processor"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Document+Processor",
+    category: "Side"
   },
   {
     title: "New Way of Voting",
@@ -89,7 +97,8 @@ const projects = [
     tech: ["Blockchain Concepts", "AI Models", "Web Integration"],
     link: "https://voting-system-demo.netlify.app",
     github: "https://github.com/kinghoys/New-Way-of-Voting",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=AI+Voting+System"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=AI+Voting+System",
+    category: "Side"
   },
   {
     title: "Design System",
@@ -98,7 +107,8 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Styled Components"],
     link: "https://design-system-demo.netlify.app",
     github: "https://github.com/kinghoys/Design-System",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Design+System"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Design+System",
+    category: "Side"
   },
   {
     title: "LawGPT",
@@ -107,7 +117,8 @@ const projects = [
     tech: ["LLMs", "NLP", "Custom Prompt Engineering"],
     link: "https://lawgpt-demo.netlify.app",
     github: "https://github.com/kinghoys/LawGPT",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=LawGPT"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=LawGPT",
+    category: "Side"
   }
 ]
 
@@ -168,59 +179,65 @@ export default function Projects() {
 
 function ProjectCard({ project, index }: { project: any, index: number }) {
   return (
-    <motion.div
+    <motion.div 
+      className="glass-card p-6 hover-lift flex flex-col h-full group relative"
       initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      viewport={{ once: true }}
-      className="glass-card p-6 hover-lift flex flex-col h-full group"
     >
-      {/* Project Image */}
-      <div className="relative mb-4 overflow-hidden rounded-lg">
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+      {/* Fast Hover Preview */}
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+        <iframe 
+          src={project.link} 
+          className="w-full h-full rounded-lg border-0"
+          title={`${project.title} preview`}
+          loading="lazy"
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent rounded-lg pointer-events-none" />
       </div>
-
-      {/* Project Content */}
-      <div className="flex-1 flex flex-col">
-        <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-        <p className="text-gray-300 mb-4 flex-1">{project.description}</p>
-        
-        {/* Tech Stack */}
-        <div className="flex flex-wrap gap-2 mb-4">
-          {project.tech.map((tech: string) => (
-            <span
-              key={tech}
-              className="bg-primary-500/20 text-primary-300 px-3 py-1 rounded-full text-sm"
-            >
-              {tech}
-            </span>
-          ))}
+      
+      {/* Main Content */}
+      <div className="relative z-20">
+        <div className="relative mb-4 overflow-hidden rounded-lg">
+          <img 
+            src={project.image} 
+            alt={project.title} 
+            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110" 
+          />
         </div>
-
-        {/* Links */}
-        <div className="flex space-x-4">
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
-          >
-            <Github className="w-5 h-5" />
-            <span>View Code</span>
-          </a>
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
-          >
-            <ExternalLink className="w-5 h-5" />
-            <span>Live Demo</span>
-          </a>
+        
+        <div className="flex-1 flex flex-col">
+          <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+          <p className="text-gray-300 mb-4 flex-1">{project.description}</p>
+          
+          <div className="flex flex-wrap gap-2 mb-4">
+            {project.tech.map((tech: string) => (
+              <span key={tech} className="bg-primary-500/20 text-primary-300 px-3 py-1 rounded-full text-sm">
+                {tech}
+              </span>
+            ))}
+          </div>
+          
+          <div className="flex space-x-4">
+            <a 
+              href={project.github} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition"
+            >
+              <Github size={18} />
+              <span>View Code</span>
+            </a>
+            <a 
+              href={project.link} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition"
+            >
+              <ExternalLink size={18} />
+              <span>Live Demo</span>
+            </a>
+          </div>
         </div>
       </div>
     </motion.div>
