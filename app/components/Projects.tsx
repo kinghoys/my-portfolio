@@ -13,8 +13,7 @@ const projects = [
     tech: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://zppss.vercel.app",
     github: "https://github.com/kinghoys/zppss",
-    image: "/zppss-screenshot.png",
-    category: "Freelance"
+    image: "/zppss-screenshot.png"
   },
   {
     title: "MarkPro Premium",
