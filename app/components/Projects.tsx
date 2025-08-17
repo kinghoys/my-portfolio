@@ -22,8 +22,7 @@ const projects = [
     tech: ["Flutter", "Dart", "Firebase"],
     link: "https://markpro-plus.web.app/",
     github: "https://github.com/kinghoys/MarkPro-premium",
-    image: "/markpro-screenshot.png",
-    category: "Freelance"
+    image: "/markpro-screenshot.png"
   },
   {
     title: "Vizag Travels",
@@ -32,8 +31,7 @@ const projects = [
     tech: ["React.js", "Material-UI", "Context API"],
     link: "https://vizag-travels-booking.vercel.app",
     github: "https://github.com/kinghoys/vizag-travels",
-    image: "/vizag-travels-screenshot.png",
-    category: "Freelance"
+    image: "/vizag-travels-screenshot.png"
   },
   {
     title: "Brushes & Palettes",
@@ -42,8 +40,7 @@ const projects = [
     tech: ["Next.js 14", "React", "Tailwind CSS"],
     link: "https://brushes-n-palettes.vercel.app",
     github: "https://github.com/kinghoys/Brushes-N-Palettes",
-    image: "/brushes-palets-screenshot.png",
-    category: "Freelance"
+    image: "/brushes-palets-screenshot.png"
   },
 
   // ✅ Personal Projects (Main 3)
@@ -54,8 +51,7 @@ const projects = [
     tech: ["JavaScript", "Node.js", "Ollama (LLaMA 3)"],
     link: "https://offline-ai-chatbot-demo.netlify.app",
     github: "https://github.com/kinghoys/Offline-AI-Chatbot",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Offline+AI+Chatbot",
-    category: "Personal"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Offline+AI+Chatbot"
   },
   {
     title: "Smart Air Quality Monitoring",
@@ -64,8 +60,7 @@ const projects = [
     tech: ["React.js", "Framer Motion", "Styled Components", "Interactive Charts"],
     link: "https://air-quality-demo.netlify.app",
     github: "https://github.com/kinghoys/Air-Quality-Monitor",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Air+Quality+Monitor",
-    category: "Personal"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Air+Quality+Monitor"
   },
   {
     title: "NeuroVista + EduVerse",
@@ -74,8 +69,7 @@ const projects = [
     tech: ["React", "Three.js", "Material-UI", "Framer Motion"],
     link: "https://neurovista-demo.netlify.app",
     github: "https://github.com/kinghoys/NeuroVista-EduVerse",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=NeuroVista+EduVerse",
-    category: "Personal"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=NeuroVista+EduVerse"
   },
 
   // ✅ Side Projects (4-5 Projects)
@@ -86,8 +80,7 @@ const projects = [
     tech: ["Python", "NLP", "Automation Scripts"],
     link: "https://document-processor-demo.netlify.app",
     github: "https://github.com/kinghoys/Advance-Document-Processor",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Document+Processor",
-    category: "Side"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Document+Processor"
   },
   {
     title: "New Way of Voting",
@@ -96,8 +89,7 @@ const projects = [
     tech: ["Blockchain Concepts", "AI Models", "Web Integration"],
     link: "https://voting-system-demo.netlify.app",
     github: "https://github.com/kinghoys/New-Way-of-Voting",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=AI+Voting+System",
-    category: "Side"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=AI+Voting+System"
   },
   {
     title: "Design System",
@@ -106,8 +98,7 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Styled Components"],
     link: "https://design-system-demo.netlify.app",
     github: "https://github.com/kinghoys/Design-System",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Design+System",
-    category: "Side"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=Design+System"
   },
   {
     title: "LawGPT",
@@ -116,8 +107,7 @@ const projects = [
     tech: ["LLMs", "NLP", "Custom Prompt Engineering"],
     link: "https://lawgpt-demo.netlify.app",
     github: "https://github.com/kinghoys/LawGPT",
-    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=LawGPT",
-    category: "Side"
+    image: "https://via.placeholder.com/400x300/6366f1/ffffff?text=LawGPT"
   }
 ]
 
